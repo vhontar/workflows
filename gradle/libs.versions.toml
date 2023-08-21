@@ -2,7 +2,7 @@
 androidxLifecycleVersion = "2.6.1"
 
 [libraries]
-androidx-coreKtx = "androidx.core:core-ktx:1.9.0"
+androidx-coreKtx = "androidx.core:core-ktx:1.10.1"
 androidx-activity-compose = "androidx.activity:activity-compose:1.7.2"
 
 androidx-lifecycle-compiler = { group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "androidxLifecycleVersion" }
