@@ -16,10 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup git
-        run: |
-          git config --global user.email "justatestemail@gmail.com"
-          git config --global user.name "vhontar"
-          git config --global url."https://unused-username:${WRAPPER_UPGRADE_GIT_TOKEN}@github.com/".insteadOf "https://github.com/"
+        run: git config --global url."https://unused-username:${WRAPPER_UPGRADE_GIT_TOKEN}@github.com/".insteadOf "https://github.com/"
 
       - name: Setup JDK 17
         uses: actions/setup-java@v3
