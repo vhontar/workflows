@@ -11,10 +11,6 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.gradlePlugins.android)
-    implementation(libs.gradlePlugins.kotlin)
-    implementation(libs.gradlePlugins.ktLint)
-    implementation(libs.gradlePlugins.ksp)
     implementation(libs.gradlePlugins.cashappLicenseCheck)
 }
 
