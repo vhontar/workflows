@@ -14,6 +14,9 @@ gradle-wrapperUpgrade = "org.gradle.wrapper-upgrade:0.11.2"
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 
+[plugins]
+gradle-wrapperUpgrade = "org.gradle.wrapper-upgrade:0.11.2"
+
 [libraries]
 gradlePlugins-android = "com.android.tools.build:gradle:8.1.2"
 gradlePlugins-kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10"

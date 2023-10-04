@@ -2,12 +2,9 @@
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     id("com.android.application") version "8.1.0" apply false
-<<<<<<< Updated upstream
-    id("org.jetbrains.kotlin.android") version "1.8.10" apply false
-=======
     id("org.jetbrains.kotlin.android") version "1.9.10" apply false
-    alias(libs.plugins.gradle.wrapperUpgrade)
     alias(libs.plugins.androidLibrary) apply false
+    alias(libs.plugins.gradle.wrapperUpgrade)
 }
 
 wrapperUpgrade {
@@ -17,5 +14,4 @@ wrapperUpgrade {
             baseBranch.set("develop")
         }
     }
->>>>>>> Stashed changes
 }
