@@ -29,7 +29,7 @@ androidx-lifecycle-viewmodelKtx = { group = "androidx.lifecycle", name = "lifecy
 androidx-lifecycle-runtimeKtx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidxLifecycleVersion" }
 androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycleVersion" }
 
-compose-bom = "androidx.compose:compose-bom:2023.08.00"
+compose-bom = "androidx.compose:compose-bom:2023.10.01"
 compose-ui = { group = "androidx.compose.ui", name = "ui" }
 compose-uiGraphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 compose-uiTooling = { group = "androidx.compose.ui", name = "ui-tooling" }
