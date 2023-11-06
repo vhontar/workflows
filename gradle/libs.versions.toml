@@ -18,7 +18,7 @@ kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 gradlePlugins-android = "com.android.tools.build:gradle:8.1.2"
 gradlePlugins-kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10"
 gradlePlugins-ktLint = "org.jlleitschuh.gradle:ktlint-gradle:11.3.1"
-gradlePlugins-ksp = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:1.9.10-1.0.13"
+gradlePlugins-ksp = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:1.9.20-1.0.14"
 gradlePlugins-cashappLicenseCheck = "app.cash.licensee:licensee-gradle-plugin:1.8.0"
 
 androidx-coreKtx = "androidx.core:core-ktx:1.9.0"
