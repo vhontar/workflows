@@ -1,7 +1,7 @@
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     // id("com.android.library") version("8.1.0") apply false
-    kotlin("jvm") version "1.9.10"
+    kotlin("jvm") version "1.9.20"
     `java-gradle-plugin`
 }
 
