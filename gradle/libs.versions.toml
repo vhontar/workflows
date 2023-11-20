@@ -22,7 +22,7 @@ gradlePlugins-ksp = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plug
 gradlePlugins-cashappLicenseCheck = "app.cash.licensee:licensee-gradle-plugin:1.8.0"
 
 androidx-coreKtx = "androidx.core:core-ktx:1.9.0"
-androidx-activity-compose = "androidx.activity:activity-compose:1.7.2"
+androidx-activity-compose = "androidx.activity:activity-compose:1.8.1"
 
 androidx-lifecycle-compiler = { group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "androidxLifecycleVersion" }
 androidx-lifecycle-viewmodelKtx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "androidxLifecycleVersion" }
